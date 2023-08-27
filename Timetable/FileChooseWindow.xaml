@@ -1,0 +1,21 @@
+﻿<Window x:Class="Timetable.FileChooseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Timetable"
+        mc:Ignorable="d"
+        Title="FileChooseWindow" Height="200" Width="300">
+    <Grid>
+        <Button x:Name="withoutFileButton" HorizontalAlignment="Left" Margin="190,105,0,0" VerticalAlignment="Top" Width="80" Height="40" Click="withoutFileButton_Click">
+            <TextBlock TextAlignment="Center">Продолжить<LineBreak/>без файла</TextBlock>
+        </Button>
+        <TextBlock x:Name="fileFiled" HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="45"/>
+        <Button x:Name="chooseFileButton" Content="Выбрать файл" HorizontalAlignment="Left" Margin="182,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.101,-0.399" Height="20" Width="86" Click="chooseFileButton_Click"/>
+        <Button x:Name="withFileButton" HorizontalAlignment="Left" Margin="20,105,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="withFileButton_Click">
+            <TextBlock HorizontalAlignment="Stretch" TextAlignment="Center"><Run Text="Продолжить с"/><LineBreak/><Run Text="выборанным файлом"/></TextBlock>
+        </Button>
+        <Border BorderBrush="#FFBBBBBB" BorderThickness="1" Height="2" Width="300" Margin="0,30,0,0"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timetable", "Timetable\Timetable.csproj", "{4592CC8D-128B-4207-A7F9-1F7A2DD1DB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainings", "Trainings\Trainings.csproj", "{3800C847-8C51-4163-A6C5-A671DE7D5A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4592CC8D-128B-4207-A7F9-1F7A2DD1DB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4592CC8D-128B-4207-A7F9-1F7A2DD1DB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4592CC8D-128B-4207-A7F9-1F7A2DD1DB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4592CC8D-128B-4207-A7F9-1F7A2DD1DB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3800C847-8C51-4163-A6C5-A671DE7D5A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3800C847-8C51-4163-A6C5-A671DE7D5A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3800C847-8C51-4163-A6C5-A671DE7D5A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3800C847-8C51-4163-A6C5-A671DE7D5A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19B6B2A4-ABA9-4B05-814C-1A957EE264FC}
+	EndGlobalSection
+EndGlobal
